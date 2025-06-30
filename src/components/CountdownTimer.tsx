@@ -35,16 +35,16 @@ const CountdownTimer = () => {
     }, []);
 
     return (
-        <div className="flex justify-center space-x-8 space-y-5 mb-8 text-gray-300">
+        <div className="flex justify-center space-x-5 space-y-5 mb-8 text-gray-300">
             <div className="text-center">
                 <div className="text-5xl md:text-9xl font-bold font-mono">
                     <span className="nabla-text">
                         {timeLeft.days.toString().padStart(2, "0")}
                     </span>
                 </div>
-                <div className="text-sm md:text-base uppercase tracking-wider invisible">
-                    Days
-                </div>
+                {/* <div className="text-sm md:text-base uppercase tracking-wider">
+                    Day
+                </div> */}
             </div>
             <div className="text-center">
                 <div className="text-5xl md:text-9xl font-bold font-mono">
@@ -52,9 +52,9 @@ const CountdownTimer = () => {
                         {timeLeft.hours.toString().padStart(2, "0")}
                     </span>
                 </div>
-                <div className="text-sm md:text-base uppercase tracking-wider invisible">
-                    Hours
-                </div>
+                {/* <div className="text-sm md:text-base uppercase tracking-wider ">
+                    HRS
+                </div> */}
             </div>
             <div className="text-center">
                 <div className="text-5xl md:text-9xl font-bold font-mono">
@@ -62,9 +62,9 @@ const CountdownTimer = () => {
                         {timeLeft.minutes.toString().padStart(2, "0")}
                     </span>
                 </div>
-                <div className="text-sm md:text-base uppercase tracking-wider invisible">
-                    Seconds
-                </div>
+                {/* <div className="text-sm md:text-base uppercase tracking-wider ">
+                    MIN
+                </div> */}
             </div>
             <div className="text-center">
                 <div className="text-5xl md:text-9xl font-bold font-mono">
@@ -72,9 +72,9 @@ const CountdownTimer = () => {
                         {timeLeft.seconds.toString().padStart(2, "0")}
                     </span>
                 </div>
-                <div className="text-sm md:text-base uppercase tracking-wider invisible">
-                    Seconds
-                </div>
+                {/* <div className="text-sm md:text-base uppercase tracking-wider ">
+                    SEC
+                </div> */}
             </div>
         </div>
     );

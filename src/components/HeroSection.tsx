@@ -12,16 +12,14 @@ const HeroSection = () => {
                 {/* <h1 className="text-6xl md:text-8xl font-bold mb-6 text-white text-center tracking-[0.5em] font-serif">
                     GOLDEN PHANTASY
                 </h1> */}
-                <img src="gp-white-blur.png" />
-                <h2 className="text-3xl md:text-5xl font-light mb-12 text-gray-200">
+                <img src="gp-white-blur.png" className="mb-16" />
+                <h2 className="text-5xl md:text-5xl font-light mb-12 text-gray-200">
                     "blouse" featuring peter breeze
                 </h2>
+
                 <div className="fade-in">
                     <CountdownTimer />
                 </div>
-                {/* <p className="text-xl md:text-2xl mb-12 text-gray-300 max-w-2xl mx-auto">
-                    music video out soon :)
-                </p> */}
 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                     <a
@@ -30,7 +28,7 @@ const HeroSection = () => {
                         rel="noopener noreferrer"
                     >
                         <button className="bg-gradient-to-r from-[#F8D7A3]  to-[#DCA64F] text-white font-semibold px-8 py-3 text-lg rounded-lg hover:from-[#D88B11] hover:to-[#9B650E] transition-all duration-400">
-                            Release Party July 10 - Get Tickets
+                            Release Party
                         </button>
                     </a>
                     <a
