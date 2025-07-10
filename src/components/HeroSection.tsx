@@ -12,13 +12,31 @@ const HeroSection = () => {
                 {/* <h1 className="text-6xl md:text-8xl font-bold mb-6 text-white text-center tracking-[0.5em] font-serif">
                     GOLDEN PHANTASY
                 </h1> */}
-                <img src="gp-white-blur.png" className="mb-16" />
-                <h2 className="text-5xl md:text-5xl font-light mb-12 text-gray-200">
+                <img
+                    src="gp-white-blur.png"
+                    className="mb-16"
+                    alt="Golden Phantasy"
+                />
+                {/* <h2 className="text-5xl md:text-5xl font-light mb-12 text-gray-200">
                     "blouse" featuring peter breeze
-                </h2>
+                </h2> */}
 
-                <div className="fade-in">
-                    <CountdownTimer />
+                <div className="fade-in flex justify-center">
+                    {/* <CountdownTimer /> */}
+                    <iframe
+                        style={{
+                            border: 0,
+                            width: "350px",
+                            height: "442px",
+                            margin: "0px 0px 50px 0px",
+                        }}
+                        src="https://bandcamp.com/EmbeddedPlayer/track=390279502/size=large/bgcol=333333/linkcol=fe7eaf/tracklist=false/transparent=true/"
+                        seamless
+                    >
+                        <a href="https://goldenphantasy.bandcamp.com/track/blouse-ft-peter-breeze">
+                            Blouse (ft. Peter Breeze) by golden phantasy
+                        </a>
+                    </iframe>
                 </div>
 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -28,7 +46,7 @@ const HeroSection = () => {
                         rel="noopener noreferrer"
                     >
                         <button className="bg-gradient-to-r from-[#F8D7A3]  to-[#DCA64F] text-white font-semibold px-8 py-3 text-lg rounded-lg hover:from-[#D88B11] hover:to-[#9B650E] transition-all duration-400">
-                            Release Party
+                            Release Party July 10
                         </button>
                     </a>
                     <a
@@ -37,9 +55,15 @@ const HeroSection = () => {
                         rel="noopener noreferrer"
                     >
                         <button className="border-2 border-white text-white hover:bg-white hover:text-black transition-all duration-200 px-8 py-3 text-lg rounded-lg">
-                            Follow on Bandcamp
+                            Buy Music
                         </button>
                     </a>
+                </div>
+                <div
+                    className="flex flex-col sm:flex-row gap-4 justify-center"
+                    style={{ marginTop: "20px" }}
+                >
+                    <h3>Coming soon to streaming platforms.</h3>
                 </div>
             </div>
         </section>
