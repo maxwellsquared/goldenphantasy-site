@@ -1,5 +1,5 @@
 import ThreeJSHero from "./ThreeJSHero";
-import CountdownTimer from "./CountdownTimer";
+// import CountdownTimer from "./CountdownTimer";
 
 const HeroSection = () => {
     return (
